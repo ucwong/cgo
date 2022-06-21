@@ -1,4 +1,4 @@
 # cgo
 ```
-go run .
+make && ./cgo
 ```
