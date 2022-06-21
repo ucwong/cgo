@@ -2,8 +2,8 @@
 package main
 
 /*
-  #include "hello.h"
-  #include "sum.h"
+  #include "./include/hello.h"
+  #include "./include/sum.h"
 */
 import "C"
 
