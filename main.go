@@ -9,8 +9,8 @@ import "C"
 
 import (
 	"errors"
-	"log"
 	"fmt"
+	"log"
 )
 
 func main() {
