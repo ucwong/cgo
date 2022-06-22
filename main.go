@@ -3,7 +3,8 @@ package main
 
 /*
   #cgo LDFLAGS: -L./ -lcgo -lstdc++
-  #cgo CFLAGS: -I./
+  #cgo LDFLAGS: -L./ -lhello -lsum -lstdc++
+  #cgo CFLAGS: -I./include
   #include "./include/hello.h"
   #include "./include/sum.h"
 */
