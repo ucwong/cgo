@@ -2,8 +2,8 @@
 .SUFFIXES:
 
 all:
-	gcc -shared -o libhello.so src/hello.c
-	gcc -shared -o libsum.so src/sum.c
+	#gcc -shared -o libhello.so src/hello.c
+	#gcc -shared -o libsum.so src/sum.c
 	#
 	gcc -c -o hello.o src/hello.c
 	gcc -c -o sum.o src/sum.c
